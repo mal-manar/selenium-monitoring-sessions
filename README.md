@@ -7,3 +7,26 @@ ___
 - [x] TASK 04: Window Commands (Max/Min/Fullscreen)
 
 ---
+
+## MonitoringJUnit01
+
+- [x] setUp()
+- [x] beforeEach()
+- [x] urlTest()
+- [x] titleTest()
+- [x] urlTest2()
+- [x] sourcePageTest()
+- [x] afterEach()
+- [x] close()
+
+---
+
+## MonitoringJUnit02
+
+- [x] beforeEach()
+- [x] titleTest()
+- [x] titleVideoTest()
+- [x] urlTest()
+- [x] afterEach()
+
+---
