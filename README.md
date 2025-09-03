@@ -10,23 +10,23 @@ ___
 
 ## MonitoringJUnit01
 
-- [x] setUp()
-- [x] beforeEach()
-- [x] urlTest()
-- [x] titleTest()
-- [x] urlTest2()
-- [x] sourcePageTest()
-- [x] afterEach()
-- [x] close()
+- [x] @BeforeAll → setUp()
+- [x] @BeforeEach → beforeEach()
+- [x] @Test → currentURL contains "youtube"
+- [x] @Test → title does not contain "Video"
+- [x] @Test → URL contains "youtube"
+- [x] @Test → sourcePage contains "youtube"
+- [x] @AfterEach → afterEach()
+- [x] @AfterAll → close()
 
 ---
 
 ## MonitoringJUnit02
 
-- [x] beforeEach()
-- [x] titleTest()
-- [x] titleVideoTest()
-- [x] urlTest()
-- [x] afterEach()
+- [x] @BeforeEach → beforeEach()
+- [x] @Test → title same (maximize vs minimize)
+- [x] @Test → title not contain "Video" (fullscreen)
+- [x] @Test → URL contains "google"
+- [x] @AfterEach → afterEach()
 
 ---
