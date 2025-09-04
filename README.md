@@ -1,5 +1,5 @@
 ___
-
+# WEEK 01 - day 01
 ## ASSIGNMENT 01 (A01)
 
 - [x] TASK 01: Chrome Driver (Google - Title & URL)
@@ -8,6 +8,7 @@ ___
 - [x] TASK 04: Window Commands (Max/Min/Fullscreen)
 
 ---
+# WEEK 01 - day 02
 ## A02BrowserHistory
 
 - [x] @BeforeEach → setup() (Chrome, maximize)
