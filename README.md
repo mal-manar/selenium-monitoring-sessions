@@ -1,5 +1,6 @@
 ___
-# ASSIGNMENT 01
+
+## ASSIGNMENT 01 (A01)
 
 - [x] TASK 01: Chrome Driver (Google - Title & URL)
 - [x] TASK 02: Firefox Driver (YouTube - Verify Title)
@@ -7,6 +8,50 @@ ___
 - [x] TASK 04: Window Commands (Max/Min/Fullscreen)
 
 ---
+## A02BrowserHistory
+
+- [x] @BeforeEach → setup() (Chrome, maximize)
+- [x] @Test → navTest()
+    - Wikipedia → Google
+    - Back/Forward multiple times → assert titles
+- [x] @Test → refreshTest()
+    - Refresh Google → title still contains `"Google"`
+- [x] @AfterEach → tearDownAll() (quit)
+
+---
+
+## A03SourceTest
+
+- [x] @BeforeEach → setup() (Chrome, maximize)
+- [x] @Test → source contains `"WebDriver"` (selenium.dev)
+- [x] @Test → source contains `"Python"` (python.org)
+- [x] @AfterEach → teardown() (quit)
+
+---
+
+## A04SizePos
+
+- [x] @BeforeEach → setup() (Chrome)
+- [x] @Test → sizeTest() → set size (800 × 600) → `assertEquals` width & height
+- [x] @Test → positionTest() → set position (100, 100) → `assertEquals` X & Y
+- [x] @AfterEach → teardown() (quit)
+
+---
+
+## A05NavVerify
+
+- [x] @BeforeEach → setup() (Chrome, maximize)
+- [x] @Test → navTitleVerifyTest()
+    - Google → `Assertions.assertTrue` title contains `"Google"`
+    - YouTube → `Assertions.assertTrue` title contains `"YouTube"`
+    - LinkedIn → `Assertions.assertTrue` title contains `"LinkedIn"`
+- [x] @Test → navUrlVerifyTest()
+    - Back twice → `Assertions.assertEquals` URL `"https://www.google.com/"`
+    - Forward twice → `Assertions.assertEquals` URL `"https://www.linkedin.com/"`
+- [x] @AfterAll → close() (quit)
+
+---
+
 
 ## MonitoringJUnit01
 
