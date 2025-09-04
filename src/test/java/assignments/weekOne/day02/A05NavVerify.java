@@ -1,4 +1,4 @@
-package assignments;
+package assignments.weekOne.day02;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Assertions;
